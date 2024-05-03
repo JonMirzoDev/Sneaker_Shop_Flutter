@@ -32,9 +32,12 @@ class _HomePageState extends State<HomePage> {
               onPressed: () {
                 Scaffold.of(context).openDrawer();
               },
-              icon: const Icon(
-                Icons.menu,
-                color: Colors.black,
+              icon: const Padding(
+                padding: EdgeInsets.only(left: 8.0),
+                child: Icon(
+                  Icons.menu,
+                  color: Colors.black,
+                ),
               ));
         }),
       ),
